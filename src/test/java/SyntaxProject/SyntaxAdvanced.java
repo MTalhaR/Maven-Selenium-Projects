@@ -81,7 +81,7 @@ public class SyntaxAdvanced {
         actionSlide.dragAndDropBy(slide5,50,235).perform();
         WebElement slide6=driver.findElement(By.xpath("//input[starts-with(@onchange,'rangeDanger')]"));
         actionSlide.dragAndDropBy(slide6,-20,235).perform();
-        /*driver.navigate().back();
+        driver.navigate().back();
         Thread.sleep(1000);
         driver.findElement(By.linkText("Drag and Drop")).click();
         String [] dragArray={"//span[text()='Draggable 1']","//span[text()='Draggable 2']","//span[text()='Draggable 3']"
@@ -107,6 +107,6 @@ public class SyntaxAdvanced {
         Thread.sleep(1000);
         driver.findElement(By.id("btn_done_example")).click();
         Thread.sleep(2000);
-        driver.quit();*/
+        driver.quit();
     }
 }
